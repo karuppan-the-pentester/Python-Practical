@@ -1,11 +1,13 @@
-num=int(input("Enter the number"))
+num=int(input("Enter the number: "))
 sum=0
 temp=num
+
 while temp>0:
- i=temp%10
- sum=sum+(i*i*i)
- temp=temp//10
+    i=temp%10
+    sum=sum+(i*i*i)
+    temp=temp//10
+
 if sum==num:
- print("Amstrong")
+    print("Amstrong")
 else:
- print("not armstrong")
+    print("not armstrong")

@@ -1,8 +1,9 @@
-class MyClass(object): # Defining class
-def __init__(self, x, y, z):
- self.var1 = x # public data member
- self._var2 = y # protected data member
- self.__var3 = z # private data member
+class MyClass(object):
+    def __init__(self, x, y, z):
+        self.var1 = x
+        self._var2 = y
+        self.__var3 = z
+
 obj = MyClass(3,4,5)
 print(obj.var1)
 obj.var1 = 10

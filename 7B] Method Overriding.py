@@ -1,9 +1,9 @@
 class Parent:
-def ovr_method(self):
- print ("This is in Parent Class")
+    def ovr_method(self):
+        print ("This is in Parent Class")
 class Child(Parent):
-def ovr_method(self):
- print ("This is in Child Class")
+    def ovr_method(self):
+        print ("This is in Child Class")
 a=Parent()
 a.ovr_method()
 c = Child()
