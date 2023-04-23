@@ -5,7 +5,7 @@ print("%o is the octal equivalent of %d" %(25,25))
 print("%X is the hexadecimal equivalent of %d" %(255,255))
 print("%e is the exponential equivalent of %f" %(898354,898354))
 print("I am 6’2\" tall.")
-print("I am Anusha \n My age is 20")
+print("I am Yamuna \n My age is 19")
 string="Karuppasamy K"
 print(string.capitalize())
 print(string.center(30,'*'))
